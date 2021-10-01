@@ -1,6 +1,6 @@
 baseURL = 'http://hugowebsiteduke.s3-website.us-east-2.amazonaws.com'
 languageCode = 'en-us'
-title = 'Hugo CD code build'
+title = 'Hugo CD code build work'
 theme = "ananke"
 
 [[deployment.targets]]
