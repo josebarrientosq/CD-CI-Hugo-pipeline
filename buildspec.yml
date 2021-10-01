@@ -19,7 +19,7 @@ phases:
     commands:
       - rm -rf public
       - hugo
-      - aws s3 sync public/ s3://hugowebsiteduke/ --region us-east-2 --delete
   post_build:
     commands:
+      - aws s3 sync --delete public s3://hugowebsiteduke/
       - echo Build completed on `date`
